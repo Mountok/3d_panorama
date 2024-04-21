@@ -4,7 +4,7 @@ create table images (
 	image_name varchar(200) not null,
 	image_url varchar(200) not null,
 	image_owner varchar(200) not null
-)
+);
 
 insert into images (image_name,image_url,image_owner) values
 ('Аллея','harward_1.jpg','Гарвард'),
