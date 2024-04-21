@@ -1,0 +1,33 @@
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    display: flex;
+    min-height: 100dvh;
+    align-items: center;
+    justify-content: center;
+  }
+  #panorama{
+    border: 4px solid #16826A;
+    border-radius: 10px;
+    width: 90%;
+    height: 90dvh;
+  }
+  #panorama_prev{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    z-index: 100;
+    font-size: 25px;
+    color: #ffffff;
+    letter-spacing:1px;
+    padding: 5px   15px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #16826A;
+
+    margin-top: 50px;
+  }
